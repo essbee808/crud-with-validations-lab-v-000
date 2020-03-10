@@ -13,6 +13,7 @@ class SongsController < ApplicationController
   end
 
   def create
+    @song = Song.new
   end
 
   def edit

@@ -1,4 +1,5 @@
 class SongsController < ApplicationController
+  
   def index
   end
 
@@ -10,5 +11,5 @@ class SongsController < ApplicationController
 
   def create
   end
-  
+
 end

@@ -16,6 +16,7 @@ class SongsController < ApplicationController
   private
 
   def song_params
+    params.permit(:)
   end
 
   def set_song!

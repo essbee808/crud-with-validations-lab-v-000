@@ -13,6 +13,9 @@ class SongsController < ApplicationController
   def create
   end
 
+  def edit
+  end
+
   private
 
   def song_params

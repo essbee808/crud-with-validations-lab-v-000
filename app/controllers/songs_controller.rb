@@ -26,6 +26,7 @@ class SongsController < ApplicationController
   end
 
   def update
+    @song.update(song_params(:title, :released, :release_year, :artist_name, :genre))
   end
 
   private

@@ -14,6 +14,12 @@ class SongsController < ApplicationController
 
   def create
     @song = Song.create(song_params)
+
+    if @song.valid?
+      redirect_to song_path(@song)
+    else
+
+    end
   end
 
   def edit
